@@ -1,0 +1,32 @@
+[
+    {
+        "cover" : "/assets//image/content/slider4.png", 
+        "title" : "slider 2", 
+        "slider_text": "Arukas slider text", 
+        "description" : "description 1"
+    },
+    {
+        "cover" : "/assets//image/content/slider2.png", 
+        "title" : "slider 2", 
+        "slider_text": "Arukas slider text", 
+        "description" : "description 2"
+    },
+    {
+        "cover" : "/assets//image/content/slider3.png", 
+        "title" : "slider 1", 
+        "slider_text": "Arukas slider text", 
+        "description" : "description 3"
+    },
+    {
+        "cover" : "/assets//image/content/slider1.jpg", 
+        "title" : "slider 4", 
+        "slider_text": "Arukas slider text", 
+        "description" : "description 4"
+    },
+    {
+        "cover" : "/assets//image/content/slider2.png", 
+        "title" : "slider 5", 
+        "slider_text": "Arukas slider text", 
+        "description" : "description 5"
+    }
+]

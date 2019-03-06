@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "header": "RESIDENT EVIL 1",
+        "cover": "/assets/image/slider1.jpg",
+        "content": "It is a long established like)"
+    },
+    {
+        "id":2,
+        "header": "RESIDENT EVIL 2",
+        "cover": "/assets/image/slider2.jpg",
+        "content": "It is a long established like)"
+    },
+    {
+        "id":3,
+        "header": "RESIDENT EVIL 3",
+        "cover": "/assets/image/slider3.jpg",
+        "content": "It is a long established like)"
+    }
+]
+ 

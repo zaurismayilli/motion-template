@@ -1,0 +1,23 @@
+[
+    {
+        "name"          : "Scott Kennedy",
+        "work"          : "f developer",
+        "follow"        : "follow",
+        "description"   : "S & C",
+        "cover"       : "/assets/image/content/person1.png"
+    },
+    {
+        "name"          : "Leon Kennedy",
+        "work"          : "f developer",
+        "follow"        : "follow",
+        "description"   : "S & C",
+        "cover"       : "/assets/image/content/person2.png"
+    },
+    {
+        "name"          : "Scott Kennedy",
+        "work"          : "f developer",
+        "follow"        : "follow",
+        "description"   : "S & C",
+        "cover"       : "/assets/image/content/person3.png"
+    }
+]

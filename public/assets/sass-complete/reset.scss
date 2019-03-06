@@ -1,0 +1,165 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video
+{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body
+{
+    line-height:1;
+    position: relative;
+    height:100%;
+    font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+    display:block;
+}
+
+nav ul
+{
+    list-style:none;
+}
+
+blockquote, q
+{
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,q:before, q:after
+{
+    content:none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a
+{
+    margin:0;
+    padding:0;
+    font-size:100%;
+    outline: none !important;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins
+{
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark
+{
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+.clear {
+    clear: both;
+}
+
+del
+{
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title]
+{
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table
+{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr
+{
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:0;
+    padding:0;
+}
+
+input, select {vertical-align:middle;}
+
+ul
+{
+    margin:0;
+    padding:0;
+}
+
+ul li
+{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.flex
+{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;  	/* NEW - Chrome */
+	display: flex;
+}
+
+.flexCenter {
+    justify-content: center;
+    align-items: center;
+}
+
+.flexLeft {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flexLeft {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+h1 { font-size: 2em } h2 { font-size: 1.5em} h3 { font-size: 1.17em} h4 {font-size: 1.33em} h5 {font-size: 0.83em} h6 {font-size: 0.67em}
+
+button
+{
+    /*background-color: transparent;*/
+    outline: none;
+    padding:0;
+    margin:0;
+    border:none;
+    cursor: pointer;
+}
+
+

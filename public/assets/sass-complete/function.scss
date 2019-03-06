@@ -1,0 +1,121 @@
+/* mixin function */
+/*  starting 31.01.2018 */
+
+    @mixin transition ($second, $type) {
+
+        -webkit-transition: $second $type;
+        -moz-transition: $second $type;
+        -ms-transition: $second $type;
+        -o-transition: $second $type;
+        transition: $second $type;
+    }
+
+    @mixin scale($value) {
+
+        -webkit-transform: scale($value);
+        -moz-transform: scale($value);
+        -ms-transform: scale($value);
+        -o-transform: scale($value);
+        transform: scale($value);
+    }
+
+    @mixin translate ($firstpx, $secondpx) {
+
+        -webkit-transform: translate($firstpx, $secondpx);
+        -moz-transform: translate($firstpx, $secondpx);
+        -ms-transform: translate($firstpx, $secondpx);
+        -o-transform: translate($firstpx, $secondpx);
+        transform: translate($firstpx, $secondpx);
+    }
+
+    @mixin box_shadow ( $colorrgb, $color_rgb2, $color1, $color2, $color3, $opacity) {
+
+        -webkit-box-shadow: $colorrgb $colorrgb $color_rgb2 $colorrgb rgba($color1, $color2, $color3, $opacity);
+        -moz-box-shadow: $colorrgb $colorrgb $color_rgb2 $colorrgb rgba($color1, $color2, $color3, $opacity);
+        box-shadow: $colorrgb $colorrgb $color_rgb2 $colorrgb rgba($color1, $color2, $color3, $opacity);
+    }
+
+    @mixin box_shadow_2 ($in_or_out, $colorrgb, $color_rgb2, $color1, $color2, $color3, $opacity) {
+
+        -webkit-box-shadow: $in_or_out, $colorrgb $colorrgb $color_rgb2 $colorrgb rgba($color1, $color2, $color3, $opacity);
+        -moz-box-shadow: $in_or_out, $colorrgb $colorrgb $color_rgb2 $colorrgb rgba($color1, $color2, $color3, $opacity);
+        box-shadow: $in_or_out, $colorrgb $colorrgb $color_rgb2 $colorrgb rgba($color1, $color2, $color3, $opacity);
+    }
+
+    @mixin rotate($deg) {
+
+        -webkit-transform: rotate($deg);
+        -moz-transform: rotate($deg);
+        -ms-transform: rotate($deg);
+        -o-transform: rotate($deg);
+        transform: rotate($deg);
+    }
+
+    @mixin calc ($value1 , $value2) {
+
+        width: -webkit-calc($value1 - $value2);
+        width: expression($value1 - $value2);
+        width: -moz-calc($value1 - $value2);
+        width: -o-calc($value1 - $value2);
+        width: calc($value1 - $value2);
+    }
+
+    @mixin user-select() {
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    @mixin border-radius($px) {
+
+        -webkit-border-radius: $px;
+        -moz-border-radius: $px;
+        border-radius: $px;
+    }
+
+    @mixin flex () {
+
+        display: -webkit-box;     
+        display: -moz-box;        
+        display: -ms-flexbox;     
+        display: -webkit-flex;    
+        display: flex;
+    }
+
+    @mixin ellipsis() {
+
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+        white-space: nowrap;
+    }
+
+    @mixin line-clamp ($num) {
+
+        display: -webkit-box;
+        -webkit-box-orient: block-axis;
+        -webkit-line-clamp: $num;
+        overflow: hidden;
+    }
+
+    @mixin scale($px) {
+
+        -ms-transform: scale($px); /* IE 9 */
+        -webkit-transform: scale($px); /* Safari */
+        transform: scale($px);
+    }
+
+    @mixin font ($size ,  $weight , $font,  $color , $background) {
+
+        font-size:$size;
+        font-family: $font;
+        color: $color;
+        font-weight: $weight;
+        background-color:$background;
+    }
+
+
+
+    
