@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "error-ex": "git+https://github.com/Qix-/node-error-ex.git",
     "mapbox-gl": "^0.47.0",
     "reaYct-router": "^4.3.1",
     "react": "^16.4.2",
